@@ -1,0 +1,166 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  background-color: #151415;
+  color: #F5F5F5;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  -webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+  filter: blur(1px);
+  text-decoration: none;
+}
+
+.nowrap {
+  white-space: pre;
+}
+
+.banner {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  z-index: 51;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 100px 420px;
+}
+
+@media only screen
+  and (max-width: 1200px)
+{
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px;
+    letter-spacing: -1px;
+  }
+}
+
+main {
+  position: relative;
+  z-index: 50;
+}
+
+.section {
+  top: 120px;
+  position: relative;
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-text {
+  justify-content: left;
+  margin: 50px 420px;
+  font-size: 24px;
+}
+
+@media only screen
+  and (max-width: 1200px)
+{
+  .section-text {
+    justify-content: left;
+    margin: 40px;
+    font-size: 24px;
+  }
+
+}
+
+footer {
+  position: relative;
+  top: 100px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  z-index: 49;
+}
+
+.contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.email {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+#follow {
+  z-index: 1;
+  height: 170px;
+  width: 170px;
+  margin-top: -25px;
+  margin-left: -25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.one {
+  background: radial-gradient(closest-side, #e66465, #9198e5, #151415);
+}
+
+.two {
+  background: radial-gradient(closest-side, #c471ed, #f64f59, #151415);
+}
+
+.three {
+  background: radial-gradient(closest-side, #108dc7, #ef8e38, #151415);
+}
+
+.four {
+  background: radial-gradient(closest-side, #dd3e54, #6be585, #151415);
+}
+
+.five {
+  background: radial-gradient(closest-side, #FF8C00, #FF0080, #151415);
+}
+
+.six {
+  background: radial-gradient(closest-side, #00F260, #0575E6, #151415);
+}
+
+.seven {
+  background: radial-gradient(closest-side, #74ebd5, #ACB6E5, #151415);
+}
+
+.eight {
+  background: radial-gradient(closest-side, #FEAC5E, #C779D0, #151415);
+}
+
+.nine {
+  background: radial-gradient(closest-side, #00416A, #799F0C, #151415);
+}
+
+.ten {
+  background: radial-gradient(closest-side, #95f9c3, #0b3866, #151415);
+}

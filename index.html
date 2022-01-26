@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+    <div id="follow">
+
+    </div>
+    <head>
+    <meta charset="utf-8">
+    <title>Christina Tingyue Lu · 陆廷悦</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/baby-angel_1f47c.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+<body>
+  <script>
+    $(document).ready(function () {
+      var colors = [
+      "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", ""
+    ];
+    var randomIndex = Math.floor(Math.random() * colors.length);
+    $("#follow").addClass(colors[randomIndex]);
+
+      $("body").mousemove(function (e) {
+          handleMouseMove(e);
+      });
+
+      function handleMouseMove(event) {
+
+          var x = event.pageX;
+          var y = event.pageY;
+
+          $("#follow").animate({
+              left: x-50,
+              top: y-50
+          }, 17);
+      }
+
+
+    });
+  </script>
+    <header>
+      <div class="banner">
+        <div class="title">CHRISTINA TINGYUE LU / <dic class="nowrap">陆廷悦</div></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section">
+        <div class="section-text">
+          <p>
+            is a researcher, software engineer, and artist; based in london, via cupertino and shanghai; currently at <a href="https://deepmind.com/">deepmind</a>.
+          </p>
+
+          <p>
+            she is interested in: critical theorizing around technology, non-western stacks, how to become a cyborg, saving beauty, and machine yearning.
+          </p>
+        </div>
+
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact">
+        <div class="social">
+          <a href="https://www.instagram.com/t1ngyu3/" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/t1ngyu3/" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="links">
+          <div class="email"><span>christina.ty.lu@</span><span style="display:none;">no scraping</span><span>gmail.com</span>
+
+          <div class="email">
+            <span>ganbei</span><span style="display:none;">no scraping</span><span>#7150</span>
+
+          </div>
+
+              </div>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+</html>
