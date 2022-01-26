@@ -28,7 +28,7 @@ a:hover {
   top: 0;
   width: 100%;
   flex-wrap: wrap;
-  z-index: 51;
+  z-index: 50;
 }
 
 @media only screen
