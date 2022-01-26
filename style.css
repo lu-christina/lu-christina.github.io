@@ -32,7 +32,7 @@ a:hover {
 }
 
 @media only screen
-  and (max-width: 900px)
+  and (max-width: 1000px)
 {
   .banner {
     display: flex;
@@ -56,7 +56,7 @@ a:hover {
 }
 
 @media only screen
-  and (max-width: 900px)
+  and (max-width: 1000px)
 {
   .title {
     font-size: 12vw;
@@ -88,7 +88,7 @@ main {
 }
 
 @media only screen
-  and (max-width: 900px)
+  and (max-width: 1000px)
 {
   .section {
     top: 120px;
@@ -136,7 +136,7 @@ footer {
   margin: 5px;
 }
 @media only screen
-  and (max-width: 900px)
+  and (max-width: 1000px)
 {
   .icon {
     font-size: 5vw;
@@ -159,7 +159,7 @@ footer {
 }
 
 @media only screen
-  and (max-width: 900px)
+  and (max-width: 1000px)
 {
   .email {
     text-align: center;
