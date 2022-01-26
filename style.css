@@ -7,6 +7,29 @@ body {
   color: #F5F5F5;
 }
 
+@media only screen
+  and (min-width: 2000px)
+{
+  body {
+    margin-top: 200px;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    background-color: #151415;
+    color: #F5F5F5;
+  }
+
+  .banner {
+    margin-top: 200px;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 50;
+  }
+}
+
 a {
   color: inherit;
 }
@@ -32,11 +55,25 @@ a:hover {
 }
 
 @media only screen
-  and (max-width: 1000px)
+  and (min-width: 1500px)
 {
   .banner {
     display: flex;
     justify-content: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 50;
+  }
+}
+
+@media only screen
+  and (max-width: 1000px)
+{
+  .banner {
+    display: flex;
+    justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -49,11 +86,12 @@ a:hover {
 .title {
   font-size: 42px;
   font-weight: 700;
-  margin: 100px 420px;
+  margin: 100px max(420px, 30vw);
   z-index: 52;
   justify-content: left;
   min-width: 375px;
 }
+
 
 @media only screen
   and (max-width: 1000px)
@@ -65,7 +103,6 @@ a:hover {
     letter-spacing: -1px;
   }
 }
-
 main {
   position: relative;
   z-index: 50;
@@ -75,14 +112,14 @@ main {
   top: 120px;
   position: relative;
   display: flex;
-  margin: 30px 0px;
+  margin: 30px max(420px, 30vw);
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .section-text {
   justify-content: left;
-  margin: 50px 420px;
+  margin: 50px 0px;
   font-size: 24px;
   min-width: 375px;
 }
