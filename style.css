@@ -90,7 +90,7 @@ main {
   .section-text {
     justify-content: left;
     margin: 40px;
-    font-size: 5vw;
+    font-size: 8vw;
   }
 }
 
@@ -134,8 +134,8 @@ footer {
 {
   .email {
     text-align: center;
-    font-size: 18px;
-    margin-top: 2vw;
+    font-size: 5vw;
+    margin-top: 5px;
   }
 }
 
